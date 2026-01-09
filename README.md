@@ -1,5 +1,7 @@
 # 📊 Power BI Customer Churn Analysis (Telco Dataset)
 
+![Dashboard Overview](./images/Dashboard.png)
+
 ## 🔍 Project Overview
 This project analyzes customer churn for a telecom company to identify **why customers leave, which segments are at highest risk, and where retention strategies should focus**. 
 
@@ -23,8 +25,6 @@ The final deliverable is an executive-style interactive dashboard designed for d
 
 ### 1. Executive Churn Overview
 The primary view provides a high-level summary of KPIs, including Total Customers, Churn Rate, and Average Revenue. This view is designed for quick decision-making by highlighting the most critical metrics at the top of the page. 
-
-![Dashboard Overview](./images/Dashboard.png)
 
 ### 2. Diagnostic Risk Heatmap (The "Deep-Dive")
 **Insight:** This Matrix reveals the **"Danger Zone."** Customers on **Month-to-Month** contracts using **Fiber Optic** service show a staggering **55% churn rate**. This represents the highest priority for retention intervention.
@@ -61,4 +61,5 @@ The primary view provides a high-level summary of KPIs, including Total Customer
 ---
 
 ## 🏁 Conclusion
+
 This project demonstrates the transition from raw data to business intelligence. By identifying the 55% churn rate in the Fiber Optic segment, the business can now implement targeted retention strategies to protect high-value revenue.

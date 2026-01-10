@@ -4,7 +4,8 @@
 
 ---
 
-💡 Project Summary
+## 💡 Project Summary
+
 This Power BI project analyzes Telco customer churn to identify high-risk segments and retention opportunities. Interactive dashboards highlight critical metrics, enabling data-driven business decisions.
 
 ---
@@ -70,4 +71,5 @@ The primary view provides a high-level summary of KPIs, including Total Customer
 ## 🏁 Conclusion
 
 This project demonstrates the transition from raw data to business intelligence. By identifying the 55% churn rate in the Fiber Optic segment, the business can now implement targeted retention strategies to protect high-value revenue.
+
 

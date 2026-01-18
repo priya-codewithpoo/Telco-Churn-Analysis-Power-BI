@@ -13,7 +13,7 @@ This Power BI project analyzes Telco customer churn to identify high-risk segmen
 ## 🔍 Project Overview
 This project analyzes customer churn for a telecom company to identify **why customers leave, which segments are at highest risk, and where retention strategies should focus**. 
 
-The final deliverable is an executive-style interactive dashboard designed for decision-makers. This project reflects real-world business analytics, focusing on **Diagnostic and Descriptive** insights.
+The final deliverable is an executive-style interactive dashboard designed for decision-makers. This project demonstrates hands-on business analytics using Power BI to analyze telecom customer churn.
 
 ---
 
@@ -32,22 +32,24 @@ The final deliverable is an executive-style interactive dashboard designed for d
 ## 📊 Dashboard Preview
 
 ### 1. Executive Churn Overview
-The primary view provides a high-level summary of KPIs, including Total Customers, Churn Rate, and Average Revenue. This view is designed for quick decision-making by highlighting the most critical metrics at the top of the page. 
+High-level KPIs (Total Customers, Churn Rate, Avg Revenue) 
 
 ### 2. Diagnostic Risk Heatmap (The "Deep-Dive")
-**Insight:** This Matrix reveals the **"Danger Zone."** Customers on **Month-to-Month** contracts using **Fiber Optic** service show a staggering **55% churn rate**. This represents the highest priority for retention intervention.
+Identifies “Danger Zone” customers with highest churn risk (e.g., Fiber Optic, Month-to-Month).
 ![Churn Heatmap](./images/highest_churn_risk_matrix.png)
 
 ### 3. Tenure Trend Analysis (The "Lifecycle") 
-**Insight:** Analysis shows that churn risk is highest in the **first 12 months**. This suggests that "onboarding" and "early-stage loyalty programs" are more critical than long-term retention offers.
+Highlights high churn in first 12 months to inform retention strategies
 ![Tenure Trend Analysis](./images/customer_tenure.png)
 
 ---
 
 ## 🧠 Key Business Questions Answered
-* **Where is the revenue leak?** High-monthly-charge customers are churning faster, specifically in the Fiber Optic segment.
-* **What is the "Safe Zone"?** Customers with "Two-Year" contracts and "DSL" service have less than 3% churn, regardless of tenure.
-* **Who should we target?** New customers (Tenure < 6 months) on Month-to-Month plans are the most critical target for conversion to longer contracts.
+* **Revenue leak:** High-monthly-charge Fiber Optic customers
+
+* **Safe Zone:** Two-Year DSL contracts with low churn (<3%)
+
+* **Target:** New Month-to-Month customers (Tenure <6 months) for retention
 
 ---
 
@@ -62,14 +64,17 @@ The primary view provides a high-level summary of KPIs, including Total Customer
 ---
 
 ## 📈 Key Learnings
-* **Problem Solving:** Overcame technical tool limitations by utilizing creative visual workarounds (Cards vs. Shapes) to maintain a professional UI.
-* **Storytelling:** Shifted focus from "Total Data" to "Actionable Insights," ensuring every chart answers a specific business question.
-* **Data Visualization Best Practices:** Applied consistent alignment, white space, and semantic color logic (Red for Churn, Blue for Stability).
+* Focused on actionable insights and storytelling
+
+* Applied dashboard UI/UX best practices (alignment, colors, white space)
+
+* Solved tool limitations creatively for professional visuals
 
 ---
 
 ## 🏁 Conclusion
 
-This project demonstrates the transition from raw data to business intelligence. By identifying the 55% churn rate in the Fiber Optic segment, the business can now implement targeted retention strategies to protect high-value revenue.
+This project demonstrates how raw data can be transformed into actionable business intelligence, enabling targeted retention strategies to protect high-value revenue.
+
 
 
